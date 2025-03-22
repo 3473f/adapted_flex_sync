@@ -6,8 +6,6 @@
 #include "rclcpp/rclcpp.hpp"
 #include "image_tools/cv_mat_sensor_msgs_image_type_adapter.hpp"
 
-// This is needed for FlexSync
-
 namespace adapted_flex_sync {
 
 using SyncPolicy = flex_sync::ExactSync<image_tools::ROSCvMatContainer>;
